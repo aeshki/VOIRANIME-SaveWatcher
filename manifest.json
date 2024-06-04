@@ -1,0 +1,12 @@
+{
+  "name": "VOIRANIME Extension | SaveWatcher ",
+  "description": "VOIRANIME SaveWatcher is an Open-Source browser extension. It is intended for the VOIRANIME site, and allows you to save the progress of the anime you are watching on your device.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": [ "scripts/index.js" ],
+      "matches": [ "https://*.voiranime.com/anime/*/" ]
+    }
+  ]
+}
